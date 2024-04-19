@@ -22,7 +22,7 @@
 
         $created_at = date('Y-m-d H:i:s');
 
-        $sql = "INSERT INTO comments (content, user_id, created_at) VALUES ('$content', $id, '{$created_at}')";
+        $sql = "INSERT INTO comments ( user_id,content created_at) VALUES ( $id, '{$content}','{$created_at}')";
 
         $db->query($sql);
     }
