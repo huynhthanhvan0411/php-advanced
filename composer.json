@@ -1,0 +1,19 @@
+{
+  "name": "pp",
+  "description": "ptoject code php lecture advanced",
+  "type": "php",
+  "authors": [
+    {
+      "name": "huynhthanhvan",
+      "email": "huynhthanhvan0411@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "YourVendor\\YourProject\\": "src/"
+    }
+  }
+}
